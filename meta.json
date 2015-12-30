@@ -4,10 +4,6 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        pageToken | Page Token
-        includeRemoved | Include Removed
-        restrictToMyDrive | MyDrive Only?
-        spaces | Spaces
         {
             "id": "pageToken",
             "title":"Page Token"
