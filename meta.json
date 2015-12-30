@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
+        pageToken | Page Token
+        includeRemoved | Include Removed
+        restrictToMyDrive | MyDrive Only?
+        spaces | Spaces
         {
-            "id": "from",
-            "title":"From"
+            "id": "pageToken",
+            "title":"Page Token"
+        },
+        {
+            "id": "includeRemoved",
+            "title":"Include Removed"
+        },
+        {
+            "id": "restrictToMyDrive",
+            "title":"MyDrive Only?"
+        },
+        {
+            "id": "spaces",
+            "title":"Spaces"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "kind",
+            "title":"Kind"
+        },
+        {
+            "id": "fileId",
+            "title":"File ID"
+        },
+        {
+            "id": "removed",
+            "title":"Removed"
+        },
+        {
+            "id": "time",
+            "title":"Time"
+        },
+        {
+            "id": "file",
+            "title":"File"
         }
-      */
     ],
+    "icon": "dex-drive",
     "title": "Google Drive List User Changes" /* Required.A display name for the module */
 }
