@@ -1,12 +1,16 @@
 {
-  "name": "google-drive-list-user-changes",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "author": "Alexander",
-  "license": "ISC",
-  "private": true,
-  "dependencies": {
-    "googleapis": "^2.1.7"
-  }
+   "name": "google-drive-list-user-changes",
+   "version": "0.0.1",
+   "description": "Lists changes for a user",
+   "main": "index.js",
+   "author": "Run Dexter, Inc",
+   "license": "MIT",
+   "private": true,
+   "dependencies": {
+      "googleapis": "^2.1.7"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/rundexter/googledrive-list-user-changes"
+   }
 }
